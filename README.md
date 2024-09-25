@@ -22,6 +22,7 @@ $ cd /usr/local/webots/projects/robots/softbank/nao/controllers/nao_demo_python/
 $ sudo cp nao_demo_python.py nao_demo_python.py.bkup
 
 Example Command Format for Moving a File:
+
 $ sudo cp /path/to/source_directory/nao_demo_python.py /usr/local/webots/projects/robots/softbank/nao/controllers/nao_demo_python/
 
 7.Set the WEBOTS_HOME environment variable:

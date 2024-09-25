@@ -9,10 +9,11 @@
 $ sudo apt-get install ros-noetic-webots-ros
 
 4. Modify one of the launch files from webots_ros package:
-$ cd /opt/ros/noetic/share/webots_ros/launch/ $ sudo cp complete_test.launch complete_test.launch.bkup 
+$ cd /opt/ros/noetic/share/webots_ros/launch/
+$ sudo cp complete_test.launch complete_test.launch.bkup 
 $ sudo gedit complete_test.launch
 
-5. In this launch file, replace the world directory with the one from world folder 
+6. In this launch file, replace the world directory with the one from world folder 
 NAO robot demo:
 <arg name="world" value="/usr/local/webots/projects/robots/softbank/nao/worlds/nao_demo.wbt"/>
 
